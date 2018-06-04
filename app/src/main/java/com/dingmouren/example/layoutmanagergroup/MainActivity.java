@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
         mFragments.add(slideFragment);
         mManagerNames.add("SlideLayoutManager");
 
+
+        //TODO add全部然后在显示哪一个就显示不显示就隐藏
         mFragmentManager.beginTransaction()
                 .add(R.id.container_layout, mFragments.get(0))
                 .add(R.id.container_layout,mFragments.get(1))
